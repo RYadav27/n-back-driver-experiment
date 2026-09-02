@@ -1,0 +1,30 @@
+# Generated experiment data — never commit participant results
+data/*.xlsx
+data/*.xls
+
+# Keep the data folder itself tracked (via .gitkeep)
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
